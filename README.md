@@ -134,29 +134,65 @@ Jero
 10.
 ``` <box-sizing> ``` Define cómo se calculan el ancho y el alto de un elemento: si deben incluir relleno y bordes, o no.
 
-11. break-after Especifica si se debe producir o no un salto de página, un salto de columna o un salto de región después del elemento especificado.
-12. display Establece el comportamiento de visualización (el tipo de cuadro de representación) de un elemento.
-13. empty-cells
-Establece si mostrar o no los bordes en las celdas vacías de una tabla.
-14. filter Define efectos visuales (como desenfoque y saturación) a un elemento (a menudo utilizado para imágenes).
-15. flex Es una propiedad abreviada para:
-flex-grow
-flex-shrink
-flex-basis
-Establece la longitud flexible en elementos flexibles.
-16. flex-basis Especifica la longitud inicial de un elemento flexible.
-17. flex-direction Esta propiedad indica la dirección de los elementos flexibles.
-18. flex-flow Es una abreviatura para las propiedades:
-flex-direction
-flex-wrap
-Si los elementos no son elementos flexibles, la propiedad de flujo flexible no tiene efecto.
-19. font Es una abreviatura para las propiedades:
-font-style
-font-variant
-font-weight
-font-size/line-height
-font-family
-20. font-family Especifica la fuente de texto para un elemento. Es posible especificar varios nombres de fuente como un sistema «alternativo». Si el navegador no admite la primera fuente, prueba con la siguiente fuente.
+11.font-family: Arial, sans-serif; /* sets the font family for an element */
+
+12.font-size: 16px; /* sets the font size for an element */
+
+13.color: #333; /* sets the text color for an element */
+
+14.background-color: #f0f0f0; /* sets the background color for an element */
+
+15.border: 1px solid #ddd; /* sets a border around an element */
+
+16.padding: 10px; /* sets the padding within an element */
+
+17.margin: 20px; /* sets the margin around an element */
+
+18.text-align: center; /* sets the text alignment within an element */
+
+19.text-decoration: none; /* removes the underline from a link */
+
+20.line-height: 1.5; /* sets the height of a line of text within an element */
+
+21.font-weight: bold; /* sets the font weight to bold for an element */
+
+22.text-transform: uppercase; /* sets the text to uppercase */
+
+23.box-shadow: 2px 2px 5px #ccc; /* adds a box shadow to an element */
+
+24.border-radius: 5px; /* rounds the corners of an element */
+
+25.display: inline-block; /* sets an element to display inline-block */
+
+26.width: 100%; /* sets the width of an element to 100% */
+
+27.height: 50px; /* sets the height of an element */
+
+28.background-image: url('image.jpg'); /* sets a background image for an element */
+
+29.background-size: cover; /* sets the background image to cover the entire element */
+
+30.opacity: 0.5; /* sets the opacity of an element */
+
+31.transition: all 0.3s ease-in-out; /* adds a transition effect to an element */
+
+32.text-shadow: 1px 1px #ccc; /* adds a shadow to text */
+
+33.box-sizing: border-box; /* includes padding and border in the element's total width and height */
+
+34.cursor: pointer; /* changes the cursor to a hand when hovering over an element */
+
+35.overflow: hidden; /* hides content that overflows an element */
+
+36.z-index: 999; /* sets the z-index for an element */
+
+37.position: relative; /* sets the position of an element relative to its parent */
+
+38.float: left; /* floats an element to the left */
+
+39.clear: both; /* clears a float */
+
+40.user-select: none; /* disables the ability to select text within an element */
 
 **¿QUE ES DISPLAY-BLOCK?**
 📄 display: block
